@@ -1,0 +1,11 @@
+#Header1{
+    position: relative;
+}
+.Header-line{
+    position: relative;
+    width: 100%;
+}
+#navbar-elements{
+    padding: 10px;
+    padding-top: 30px;
+}
