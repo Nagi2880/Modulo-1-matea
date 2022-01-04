@@ -25,7 +25,7 @@
 }
 ::placeholder{
     color: rgba(31, 32, 65, 0.25);
-    padding-left: 20px;
+    padding-left: 40px;
 
     font-family: 'Montserrat';
     font-weight: 700;
@@ -74,6 +74,8 @@
     font-size: 15px;
     line-height: 20px;
     padding-bottom: 15px;
+    text-align: center;
+    
 }
 
 #Text-olvidado{
@@ -99,4 +101,8 @@
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
+}
+#Footer-line{
+    width: 50%;
+    left: 100px;
 }

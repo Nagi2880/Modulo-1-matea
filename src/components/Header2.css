@@ -1,0 +1,39 @@
+#Header-container{
+    background-color: black;
+    height: 75px;
+}
+#Header-title{
+    color: white;
+    font-family: 'Righteous';
+}
+#Logo2{
+    width: 47px;
+    height: 37px;
+    padding-right: 10px;
+}
+#Mateify-container{
+    margin-left: 50px;
+}
+#Navbar {
+    padding-top: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+#Nav-button{
+    font-family: 'Montserrat';
+    padding-right: 25px;
+}
+.Login{
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+a:hover{
+    color: #1ED760;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
