@@ -11,6 +11,11 @@
     height: 37px;
     padding-right: 10px;
 }
+
+#Home2-link{
+    text-decoration: none;
+}
+
 #Mateify-container{
     margin-left: 50px;
 }
@@ -29,11 +34,11 @@
 
 }
 
-a:hover{
+#Nav-link:hover{
     color: #1ED760;
 
 }
-a{
+#Nav-link{
     text-decoration: none;
     color: white;
 }

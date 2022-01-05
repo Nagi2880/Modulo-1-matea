@@ -1,6 +1,10 @@
+#Home-container{
+    padding: 0px;
+}
 #background{
     opacity: 20%;
 }
+
 #Body-container{
     background-color: black;
     position: relative;
@@ -40,23 +44,3 @@
     
 }
 
-#Footer-container{
-    background-color: black;
-}
-#Footer-title{
-    color: white;
-
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    padding-left: 30px;
-}
-#Footer-subtitle{
-    color: white;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-}

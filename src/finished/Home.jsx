@@ -1,24 +1,20 @@
 import React from 'react';
 import Header2 from '../components/Header2';
 import './Home.css';
+import Footer from '../components/Footer';
+
 export default function Home() {
     return (
-        <div id="Home-container">
+        <div id="Home-container" className=''>
             <Header2 />
             <body id="Body-container" className='d-flex flex-column align-items-center'>
-                <img id="background" className='col col-md-12' alt="background" src="./background.png" />
-                <h2 id="Body-subtitle" className='col col-md-12'>PONGAMOS MUSICA, JUNTOS</h2>
-                <input type='search' placeholder='Buscar una playlist' id="Body-searchbar" className='col col-md-8'></input>
-                <button id="Body-button" className='col col-md-3'>NUEVA PLAYLIST</button>
-                
+                <img id="background" className='col col-md-12 col-xl-12' alt="background" src="./background.png" />
+                <h2 id="Body-subtitle" className='col col-md-12 col-lg-10 col-xl-8'>PONGAMOS MUSICA, JUNTOS</h2>
+                <input type='search' placeholder='Buscar una playlist' id="Body-searchbar" className='col col-md-8 col-lg-7 col-xl-5'></input>
+                <button id="Body-button" className='col col-md-4 col-lg-3 col-xl-2'>NUEVA PLAYLIST</button>
+            
             </body>
-            <footer id="Footer-container" className='d-flex align-items-baseline col col-md-12'>
-                <span id="Footer-title" className='col col-md-8'>Diseñado en Uruguay</span>
-                <div className='col col-md-4 d-flex align-items-center justify-content-evenly'>
-                    <span id="Footer-subtitle" >Powered by </span>
-                    <img alt="spotify-logo" src="./SpotifyLogo.png" />
-                </div>
-            </footer>
+            <Footer />
         </div>
     )
 }
