@@ -7,6 +7,7 @@ import {
 import Home from './finished/Home';
 import Login from './finished/Login';
 import Register from './finished/Register';
+import Datepicker from './elements/Daypicker';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="/Register" element={<Register />} />
+        <Route path="/test" element={<Datepicker />} />
       </Routes> 
     </BrowserRouter>  
   );

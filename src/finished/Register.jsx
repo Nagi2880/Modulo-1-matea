@@ -1,5 +1,6 @@
 import React from 'react'
 import Header1 from '../components/Header1';
+import Datepicker from '../elements/Daypicker';
 export default function Register() {
     return (
         <div id="Register-container">
@@ -11,10 +12,10 @@ export default function Register() {
                     <input type="password" id="Input-register" placeholder='Contraseña' />
                     <input type="text" id="Input-register"  placeholder='Nombre de usuario' />
                     <section>
-                        <select id="Dia">
-                            <option>Dia</option>
+                        
+                            <Datepicker />
                             
-                        </select>
+                        
                         <select>
                             <option>Mes</option>
                         </select>
