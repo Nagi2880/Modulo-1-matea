@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Datepicker.css';
 
 
  function Datepicker() {
@@ -9,7 +9,7 @@ import React from 'react';
     }
    
     return (
-        <select> 
+        <select className='col-2' id="Date-button"> 
             <option>Dia</option>
             {dia.map(dia =>{
             return(

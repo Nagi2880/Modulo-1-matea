@@ -2,7 +2,7 @@ import React from 'react';
 import Header1 from '../components/Header1';
 import './Login.css';
 import { Link } from 'react-router-dom';
-
+import Bodyhr from '../elements/Bodyhr';
 
 export default function Login() {
     return (
@@ -27,7 +27,7 @@ export default function Login() {
             </form>
             
             <footer id="Registrate_button-container" className='col col-md-12 d-flex flex-column align-items-center'>
-                <hr id="Footer-line" />
+                <Bodyhr />
                 <span className='col col-6 col-sm-6 col-md-3 col-lg-2' id="Second-title">¿No tienes cuenta?</span>
                    
                    <button onClick={(e) => {e.preventDefault();window.location.href='/Register'}} className='col col-3 col-sm-3 col-md-2 col-lg-2' id="Login_button-register" >Registrate</button>   

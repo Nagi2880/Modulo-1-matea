@@ -1,0 +1,63 @@
+#Register-container{
+    position: relative;
+}
+#Input-register{
+    border-radius: 30px;
+    border-color: rgba(31, 32, 65, 0.25) ;
+    height: 55px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+#Date-title{
+    font-style: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    color: #1F204140;
+}
+
+#Register-container{
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   color: rgba(31, 32, 65, 0.25);
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#Register-checkbox{
+
+    width:20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+#Register-checkbox:checked{
+    background-color: green;
+    padding:2px;
+}
+
+#Register-button{
+    background-color: #1ED760;
+    border-radius: 30px;
+    border-color: transparent;
+    height: 40px;
+    margin-top: 20px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
