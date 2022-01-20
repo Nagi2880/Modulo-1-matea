@@ -7,8 +7,7 @@ import {
 import Home from './finished/Home';
 import Login from './finished/Login';
 import Register from './finished/Register';
-import Datepicker from './elements/Daypicker';
-
+import Mobilehome from './Mobile/Mobilehome';
 function App() {
   return (
     <BrowserRouter>
@@ -16,7 +15,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="/Register" element={<Register />} />
-        <Route path="/test" element={<Datepicker />} />
+        <Route path="/test" element={<Mobilehome />} />
       </Routes> 
     </BrowserRouter>  
   );
