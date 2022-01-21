@@ -10,7 +10,7 @@ export default function Monthpicker() {
     })
 
     return (
-       <select className='col col-6' id="Date-button">
+       <select className='col col-5' id="Date-button">
         <option>Mes</option>   
            {Mes}
        </select>
