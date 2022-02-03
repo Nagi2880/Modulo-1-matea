@@ -7,7 +7,7 @@ import {
 import Home from './finished/Home';
 import Login from './finished/Login';
 import Register from './finished/Register';
-import Mobilereg from './Mobile/Mobilereg';
+import Mobilelogin from './Mobile/Mobilelogin';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="/Register" element={<Register />} />
-        <Route path="/test" element={<Mobilereg />} />
+        <Route path="/test" element={<Mobilelogin />} />
       </Routes> 
     </BrowserRouter>  
   );

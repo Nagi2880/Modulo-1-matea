@@ -1,0 +1,107 @@
+#Background-loginimage{
+    background-image: url('/public/background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+#Mobilelogin-container{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+#Form-mobilelogin{
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+#Mateify-mobilelogin{
+    font-family:'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    
+    padding-top:28px;
+    padding-bottom: 73px;
+    
+}
+
+#Title-mobilelogin{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 27px;
+    color: #000000;
+    padding-top: 23px;
+}
+
+#Input-mobilelogin{
+    background-color: #FFFFFF;
+    height: 57px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 33px;
+    margin-bottom: 15px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.25);
+    padding-left: 20px;
+}
+
+#checkboxmobile-container{
+    padding-top: 31px;
+    padding-bottom: 33px;
+}
+#Inciasesion-button{
+    background: #1ED760;
+    height: 48px;
+    border-radius: 42px;
+    border-bottom: 41px;
+    border-color: transparent;
+
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+#Mobilelogin-registerbutton{
+    border-color: transparent;
+    background-color: transparent;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+#Mobile-footercontainer{
+    padding-top: 26%;
+}
+#Poweredby{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 10px;
+    color: #FFFFFF;
+}
